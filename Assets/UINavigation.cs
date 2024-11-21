@@ -12,6 +12,8 @@ public class UINavigation : MonoBehaviour
     public GameObject cameraPage;
     // Map Page GameObject
     public GameObject mapPage;
+    //Donation Page GameObject
+    public GameObject donationPage;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,7 @@ public class UINavigation : MonoBehaviour
         artListPage.SetActive(false);
         cameraPage.SetActive(false);
         mapPage.SetActive(false);
+        donationPage.SetActive(false);
     }
 
     public void ShowWelcomePage()
@@ -66,6 +69,14 @@ public class UINavigation : MonoBehaviour
         HideAllPages();
         // Show map page
         mapPage.SetActive(true);
+    }
+
+    public void ShowDonationPage()
+    {
+        // Hide all pages
+        HideAllPages();
+        // Show donation page
+        donationPage.SetActive(true);
     }
 
 
