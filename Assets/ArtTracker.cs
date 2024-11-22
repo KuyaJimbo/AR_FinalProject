@@ -7,18 +7,37 @@ public class ArtTracker : MonoBehaviour
     // Dictionary of string and boolean
     public Dictionary<string, bool> artStatus = new Dictionary<string, bool>();
 
-    // Panels TMP text (astronaut, drone, fissure, oxygen)
-    public TMPro.TextMeshProUGUI panelText_astronaut;
-    public TMPro.TextMeshProUGUI panelText_drone;
-    public TMPro.TextMeshProUGUI panelText_fissure;
-    public TMPro.TextMeshProUGUI panelText_oxygen;
+    // Canadian Forest Fields
+    [Header("Canadian Forest")]
+    public TMPro.TextMeshProUGUI panelText_CanadianForest;
+    public GameObject mapMarker_CanadianForest;
 
-    // Map Marker GameObjects (astronaut, drone, fissure, oxygen)
-    public GameObject mapMarker_astronaut;
-    public GameObject mapMarker_drone;
-    public GameObject mapMarker_fissure;
-    public GameObject mapMarker_oxygen;
+    // Turkish Forest Fields
+    [Header("Turkish Forest")]
+    public TMPro.TextMeshProUGUI panelText_TurkishForest;
+    public GameObject mapMarker_TurkishForest;
 
+    // Winter Cat Fields
+    [Header("Winter Cat")]
+    public TMPro.TextMeshProUGUI panelText_WinterCat;
+    public GameObject mapMarker_WinterCat;
+
+    // Mona Lisa Fields
+    [Header("Mona Lisa")]
+    public TMPro.TextMeshProUGUI panelText_MonaLisa;
+    public GameObject mapMarker_MonaLisa;
+
+    // Starry Night Fields
+    [Header("Starry Night")]
+    public TMPro.TextMeshProUGUI panelText_StarryNight;
+    public GameObject mapMarker_StarryNight;
+
+    // Pearl Earring Fields
+    [Header("Pearl Earring")]
+    public TMPro.TextMeshProUGUI panelText_PearlEarring;
+    public GameObject mapMarker_PearlEarring;
+
+    [Header("Map Marker")]
     // String of Focused Art
     public string focusedArt;
 
@@ -26,10 +45,12 @@ public class ArtTracker : MonoBehaviour
     void Start()
     {
         // Create entries for each art piece ("Astronaut", "Drone", "Fissure", "Oxygen")
-        artStatus.Add("Astronaut", false);
-        artStatus.Add("Drone", false);
-        artStatus.Add("Fissure", false);
-        artStatus.Add("Oxygen", false);
+        artStatus.Add("Canadian Forest", false);
+        artStatus.Add("Turkish Forest", false);
+        artStatus.Add("Winter Cat", false);
+        artStatus.Add("Mona Lisa", false);
+        artStatus.Add("Starry Night", false);
+        artStatus.Add("Pearl Earring", false);
         UpdatePanels();
         focusedArt = "";
     }
@@ -46,94 +67,117 @@ public class ArtTracker : MonoBehaviour
 
     void UpdateMapMarker()
     {
-        // if focused art is astronaut
-        if (focusedArt == "Astronaut")
-            // mapMarker_astronaut is a panel
+        // if focused art is Canadian Forest
+        if (focusedArt == "Canadian Forest")
+            // mapMarker_CanadianForest is a panel
             // get it's image component and set the color to green and semi-transparent
-            mapMarker_astronaut.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
+            mapMarker_CanadianForest.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
         else
             // if not, set the color to white and semi-transparent
-            mapMarker_astronaut.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
-
-        // if focused art is drone
-        if (focusedArt == "Drone")
-            // mapMarker_drone is a panel
+            mapMarker_CanadianForest.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
+        // if focused art is Turkish Forest
+        if (focusedArt == "Turkish Forest")
+            // mapMarker_TurkishForest is a panel
             // get it's image component and set the color to green and semi-transparent
-            mapMarker_drone.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
+            mapMarker_TurkishForest.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
         else
-            // if not, set the color to white
-            mapMarker_drone.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
-
-
-        // if focused art is fissure
-        if (focusedArt == "Fissure")
-            // mapMarker_fissure is a panel
+            // if not, set the color to white and semi-transparent
+            mapMarker_TurkishForest.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
+        // if focused art is Winter Cat
+        if (focusedArt == "Winter Cat")
+            // mapMarker_WinterCat is a panel
             // get it's image component and set the color to green and semi-transparent
-            mapMarker_fissure.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
+            mapMarker_WinterCat.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
         else
-            // if not, set the color to white
-            mapMarker_fissure.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
-
-
-        // if focused art is oxygen
-        if (focusedArt == "Oxygen")
-            // mapMarker_oxygen is a panel
+            // if not, set the color to white and semi-transparent
+            mapMarker_WinterCat.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
+        // if focused art is Mona Lisa
+        if (focusedArt == "Mona Lisa")
+            // mapMarker_MonaLisa is a panel
             // get it's image component and set the color to green and semi-transparent
-            mapMarker_oxygen.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
+            mapMarker_MonaLisa.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
         else
-            // if not, set the color to white
-            mapMarker_oxygen.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
-
-
+            // if not, set the color to white and semi-transparent
+            mapMarker_MonaLisa.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
+        // if focused art is Starry Night
+        if (focusedArt == "Starry Night")
+            // mapMarker_StarryNight is a panel
+            // get it's image component and set the color to green and semi-transparent
+            mapMarker_StarryNight.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
+        else
+            // if not, set the color to white and semi-transparent
+            mapMarker_StarryNight.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
+        // if focused art is Pearl Earring
+        if (focusedArt == "Pearl Earring")
+            // mapMarker_PearlEarring is a panel
+            // get it's image component and set the color to green and semi-transparent
+            mapMarker_PearlEarring.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 1, 0, 0.5f);
+        else
+            // if not, set the color to white and semi-transparent
+            mapMarker_PearlEarring.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 1, 1, 0.5f);
     }
 
     // for each paneltext, check if art is in the dictionary and 
     void UpdatePanels()
     {   
+        // Update Seen Status for Canadian Forest
+        if (CheckArtStatus("Canadian Forest"))
+        {
+            panelText_CanadianForest.text = "Seen";
+        }
+        else
+        {
+            panelText_CanadianForest.text = " ";
+        }
 
-        if (artStatus.ContainsKey("Astronaut"))
+        // Update Seen Status for Turkish Forest
+        if (CheckArtStatus("Turkish Forest"))
         {
-            if (CheckArtStatus("Astronaut"))
-            {
-                panelText_astronaut.text = "Seen";
-            }
-            else
-            {
-                panelText_astronaut.text = " ";
-            }
+            panelText_TurkishForest.text = "Seen";
         }
-        if (artStatus.ContainsKey("Drone"))
+        else
         {
-            if (CheckArtStatus("Drone"))
-            {
-                panelText_drone.text = "Seen";
-            }
-            else
-            {
-                panelText_drone.text = " ";
-            }
+            panelText_TurkishForest.text = " ";
         }
-        if (artStatus.ContainsKey("Fissure"))
+
+        // Update Seen Status for Winter Cat
+        if (CheckArtStatus("Winter Cat"))
         {
-            if (CheckArtStatus("Fissure"))
-            {
-                panelText_fissure.text = "Seen";
-            }
-            else
-            {
-                panelText_fissure.text = " ";
-            }
+            panelText_WinterCat.text = "Seen";
         }
-        if (artStatus.ContainsKey("Oxygen"))
+        else
         {
-            if (CheckArtStatus("Oxygen"))
-            {
-                panelText_oxygen.text = "Seen";
-            }
-            else
-            {
-                panelText_oxygen.text = " ";
-            }
+            panelText_WinterCat.text = " ";
+        }
+
+        // Update Seen Status for Mona Lisa
+        if (CheckArtStatus("Mona Lisa"))
+        {
+            panelText_MonaLisa.text = "Seen";
+        }
+        else
+        {
+            panelText_MonaLisa.text = " ";
+        }
+
+        // Update Seen Status for Starry Night
+        if (CheckArtStatus("Starry Night"))
+        {
+            panelText_StarryNight.text = "Seen";
+        }
+        else
+        {
+            panelText_StarryNight.text = " ";
+        }
+
+        // Update Seen Status for Pearl Earring
+        if (CheckArtStatus("Pearl Earring"))
+        {
+            panelText_PearlEarring.text = "Seen";
+        }
+        else
+        {
+            panelText_PearlEarring.text = " ";
         }
         
     }
@@ -186,13 +230,21 @@ public class ArtTracker : MonoBehaviour
 
     public bool CheckArtStatus(string artName)
     {
-        // check if the art is true in the dictionary
-        if (artStatus[artName] == true)
+        if (artStatus.ContainsKey(artName))
         {
-            return true;
+            // check if the art is true in the dictionary
+            if (artStatus[artName] == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         else
         {
+            // if the art is not in the dictionary, return false
             return false;
         }
     }
