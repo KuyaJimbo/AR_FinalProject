@@ -155,7 +155,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: winter_cat_qrcode
+  mTrackableName: mona_lisa_qrcode
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Art_Museum.xml
   mAspectRatio: 1.4149176
