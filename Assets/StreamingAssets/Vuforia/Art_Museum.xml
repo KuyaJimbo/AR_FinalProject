@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="winter_cat_qrcode" size="0.074422 0.105301" />
+    <ImageTarget name="turkish_forest_qrcode" size="0.074422 0.105301" />
+    <ImageTarget name="starry_night_qrcode" size="0.074422 0.105301" />
+    <ImageTarget name="pearl_earring_qrcode" size="0.074422 0.105301" />
+    <ImageTarget name="mona_lisa_qrcode" size="0.074422 0.105301" />
+    <ImageTarget name="canadian_forest_qrcode" size="0.074422 0.105301" />
+  </Tracking>
+</QCARConfig>
