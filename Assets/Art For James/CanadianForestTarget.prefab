@@ -155,7 +155,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: pearl_earring_qrcode
+  mTrackableName: canadian_forest_qrcode
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Art_Museum.xml
   mAspectRatio: 1.4149176
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 5382953133212540716}
   mHiddenRoot: {fileID: 0}
-  mTargetName: canadian_forest_qrcode
+  mTargetName: pearl_earring_qrcode
   mDatasetName: Vuforia/Art_Museum.xml
   mCastedBehaviour: {fileID: 5382953133212540716}
   mMeshFilter: {fileID: 0}
