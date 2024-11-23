@@ -251,42 +251,51 @@ public class ArtTracker : MonoBehaviour
         }
     }
 
-    public void PlaySound()
+    
+    public void ToggleSound()
     {
-
-        switch (focusedArt)
+        if (audioSource.isPlaying)
         {
-            case "Canadian Forest":
-                audioSource.clip = targetClips[0]; // Primer clip
-                break;
-
-            case "Turkish Forest":
-                audioSource.clip = targetClips[1]; // Segundo clip
-                break;
-
-            case "Winter Cat":
-                audioSource.clip = targetClips[2]; // Tercer clip
-                break;
-
-            case "Mona Lisa":
-                audioSource.clip = targetClips[3]; // Cuarto clip
-                break;
-
-            case "Starry Night":
-                audioSource.clip = targetClips[4]; // Quinto clip
-                break;
-
-            case "Pearl Earring":
-                audioSource.clip = targetClips[5]; // Sexto clip
-                break;
-
-            default:
-                audioSource.clip = null; // Ningún clip si el arte enfocado no coincide
-                break;
+            audioSource.Stop();
         }
-        if (audioSource.clip != null)
+        else
         {
-            audioSource.Play();
+            switch (focusedArt)
+            {
+                case "Canadian Forest":
+                    audioSource.clip = targetClips[0]; 
+                    break;
+
+                case "Turkish Forest":
+                    audioSource.clip = targetClips[1]; 
+                    break;
+
+                case "Winter Cat":
+                    audioSource.clip = targetClips[2]; 
+                    break;
+
+                case "Mona Lisa":
+                    audioSource.clip = targetClips[3]; 
+                    break;
+
+                case "Starry Night":
+                    audioSource.clip = targetClips[4]; 
+                    break;
+
+                case "Pearl Earring":
+                    audioSource.clip = targetClips[5];
+                    break;
+
+                default:
+                    audioSource.clip = null; 
+                    break;
+            }
+
+            if (audioSource.clip != null)
+            {
+                audioSource.Play();
+            }
         }
     }
+
 }
