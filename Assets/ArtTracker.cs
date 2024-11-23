@@ -6,6 +6,8 @@ public class ArtTracker : MonoBehaviour
 {
     // Dictionary of string and boolean
     public Dictionary<string, bool> artStatus = new Dictionary<string, bool>();
+    public AudioSource audioSource; 
+    public AudioClip[] targetClips;
 
     // Canadian Forest Fields
     [Header("Canadian Forest")]
@@ -249,4 +251,42 @@ public class ArtTracker : MonoBehaviour
         }
     }
 
+    public void PlaySound()
+    {
+
+        switch (focusedArt)
+        {
+            case "Canadian Forest":
+                audioSource.clip = targetClips[0]; // Primer clip
+                break;
+
+            case "Turkish Forest":
+                audioSource.clip = targetClips[1]; // Segundo clip
+                break;
+
+            case "Winter Cat":
+                audioSource.clip = targetClips[2]; // Tercer clip
+                break;
+
+            case "Mona Lisa":
+                audioSource.clip = targetClips[3]; // Cuarto clip
+                break;
+
+            case "Starry Night":
+                audioSource.clip = targetClips[4]; // Quinto clip
+                break;
+
+            case "Pearl Earring":
+                audioSource.clip = targetClips[5]; // Sexto clip
+                break;
+
+            default:
+                audioSource.clip = null; // Ningún clip si el arte enfocado no coincide
+                break;
+        }
+        if (audioSource.clip != null)
+        {
+            audioSource.Play();
+        }
+    }
 }
