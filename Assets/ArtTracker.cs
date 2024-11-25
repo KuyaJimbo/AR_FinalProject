@@ -1,13 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ArtTracker : MonoBehaviour
 {
     
     public Dictionary<string, bool> artStatus = new Dictionary<string, bool>();
+    //For sound feature
     public AudioSource audioSource; 
     public AudioClip[] targetClips;
+    public Button playButton;
+    public Sprite playSprite; 
+    public Sprite stopSprite;
+
+    private Image playButtonImage;
 
     [Header("Canadian Forest")]
     public TMPro.TextMeshProUGUI panelText_CanadianForest;
@@ -49,6 +56,7 @@ public class ArtTracker : MonoBehaviour
         artStatus.Add("Pearl Earring", false);
         UpdatePanels();
         focusedArt = "";
+        playButtonImage = playButton.GetComponent<Image>();
     }
 
     
@@ -213,9 +221,11 @@ public class ArtTracker : MonoBehaviour
     
     public void ToggleSound()
     {
+        
         if (audioSource.isPlaying)
         {
             audioSource.Stop();
+            playButtonImage.sprite = playSprite;
         }
         else
         {
@@ -253,6 +263,7 @@ public class ArtTracker : MonoBehaviour
             if (audioSource.clip != null)
             {
                 audioSource.Play();
+                playButtonImage.sprite = stopSprite;
             }
         }
     }
