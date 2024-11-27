@@ -742,19 +742,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1318101714542652139, guid: 154c447c82f35e547a12d126ff57f86b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1076257997}
-    - targetCorrespondingSourceObject: {fileID: 1318101714542652139, guid: 154c447c82f35e547a12d126ff57f86b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1076257999}
-    - targetCorrespondingSourceObject: {fileID: 1318101714542652139, guid: 154c447c82f35e547a12d126ff57f86b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1076258001}
-    - targetCorrespondingSourceObject: {fileID: 1318101714542652139, guid: 154c447c82f35e547a12d126ff57f86b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1076258003}
-    - targetCorrespondingSourceObject: {fileID: 1318101714542652139, guid: 154c447c82f35e547a12d126ff57f86b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1076258005}
+      addedObject: {fileID: 1076258007}
   m_SourcePrefab: {fileID: 100100000, guid: 154c447c82f35e547a12d126ff57f86b, type: 3}
 --- !u!4 &32674850 stripped
 Transform:
@@ -2278,19 +2266,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: afcedece1f720ad48a24990d51150163, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1462090821}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: afcedece1f720ad48a24990d51150163, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1462090823}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: afcedece1f720ad48a24990d51150163, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1462090825}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: afcedece1f720ad48a24990d51150163, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1462090827}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: afcedece1f720ad48a24990d51150163, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1462090829}
+      addedObject: {fileID: 1462090831}
   m_SourcePrefab: {fileID: 100100000, guid: afcedece1f720ad48a24990d51150163, type: 3}
 --- !u!4 &310473013 stripped
 Transform:
@@ -2563,19 +2539,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: d5b7513caba3fbc4fa85269239831481, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 948811068}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: d5b7513caba3fbc4fa85269239831481, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 948811070}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: d5b7513caba3fbc4fa85269239831481, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 948811072}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: d5b7513caba3fbc4fa85269239831481, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 948811074}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: d5b7513caba3fbc4fa85269239831481, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 948811076}
+      addedObject: {fileID: 948811078}
   m_SourcePrefab: {fileID: 100100000, guid: d5b7513caba3fbc4fa85269239831481, type: 3}
 --- !u!4 &360539925 stripped
 Transform:
@@ -5930,83 +5894,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &948811068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948811064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 948811066}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: pearl_earring_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 948811066}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &948811070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948811064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 948811066}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: pearl_earring_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 948811066}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &948811072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948811064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 948811066}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: pearl_earring_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 948811066}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &948811074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948811064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 948811066}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: pearl_earring_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 948811066}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &948811076
+--- !u!114 &948811078
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6307,83 +6195,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1076257997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076257993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1076257995}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: turkish_forest_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1076257995}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1076257999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076257993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1076257995}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: turkish_forest_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1076257995}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1076258001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076257993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1076257995}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: turkish_forest_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1076257995}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1076258003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076257993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1076257995}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: turkish_forest_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1076257995}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1076258005
+--- !u!114 &1076258007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6500,19 +6312,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5773502413785092537, guid: e7a57447a205ff04ab94a4cb93b7a56a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1583568207}
-    - targetCorrespondingSourceObject: {fileID: 5773502413785092537, guid: e7a57447a205ff04ab94a4cb93b7a56a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1583568209}
-    - targetCorrespondingSourceObject: {fileID: 5773502413785092537, guid: e7a57447a205ff04ab94a4cb93b7a56a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1583568211}
-    - targetCorrespondingSourceObject: {fileID: 5773502413785092537, guid: e7a57447a205ff04ab94a4cb93b7a56a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1583568213}
-    - targetCorrespondingSourceObject: {fileID: 5773502413785092537, guid: e7a57447a205ff04ab94a4cb93b7a56a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1583568215}
+      addedObject: {fileID: 1583568217}
   m_SourcePrefab: {fileID: 100100000, guid: e7a57447a205ff04ab94a4cb93b7a56a, type: 3}
 --- !u!4 &1078043465 stripped
 Transform:
@@ -7914,83 +7714,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1462090821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462090817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1462090819}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: mona_lisa_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1462090819}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1462090823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462090817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1462090819}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: mona_lisa_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1462090819}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1462090825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462090817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1462090819}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: mona_lisa_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1462090819}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1462090827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462090817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1462090819}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: mona_lisa_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1462090819}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1462090829
+--- !u!114 &1462090831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8506,83 +8230,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1583568207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583568203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1583568205}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: canadian_forest_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1583568205}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1583568209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583568203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1583568205}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: canadian_forest_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1583568205}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1583568211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583568203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1583568205}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: canadian_forest_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1583568205}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1583568213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583568203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1583568205}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: canadian_forest_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1583568205}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1583568215
+--- !u!114 &1583568217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8918,19 +8566,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: f3f0ca26f20026e4fa2faf35f0aaafb8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1835459949}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: f3f0ca26f20026e4fa2faf35f0aaafb8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1835459951}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: f3f0ca26f20026e4fa2faf35f0aaafb8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1835459953}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: f3f0ca26f20026e4fa2faf35f0aaafb8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1835459955}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: f3f0ca26f20026e4fa2faf35f0aaafb8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1835459957}
+      addedObject: {fileID: 1835459959}
   m_SourcePrefab: {fileID: 100100000, guid: f3f0ca26f20026e4fa2faf35f0aaafb8, type: 3}
 --- !u!4 &1669139037 stripped
 Transform:
@@ -9875,83 +9511,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1835459949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835459945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1835459947}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: winter_cat_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1835459947}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1835459951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835459945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1835459947}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: winter_cat_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1835459947}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1835459953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835459945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1835459947}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: winter_cat_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1835459947}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1835459955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835459945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1835459947}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: winter_cat_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1835459947}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1835459957
+--- !u!114 &1835459959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10385,19 +9945,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: 3b262b84c34a701488a6fb487d31fe51, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1916996123}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: 3b262b84c34a701488a6fb487d31fe51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1916996125}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: 3b262b84c34a701488a6fb487d31fe51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1916996127}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: 3b262b84c34a701488a6fb487d31fe51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1916996129}
-    - targetCorrespondingSourceObject: {fileID: 8513877339998286829, guid: 3b262b84c34a701488a6fb487d31fe51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1916996131}
+      addedObject: {fileID: 1916996133}
   m_SourcePrefab: {fileID: 100100000, guid: 3b262b84c34a701488a6fb487d31fe51, type: 3}
 --- !u!4 &1916996119 stripped
 Transform:
@@ -10415,83 +9963,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1916996123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641060696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1916996121}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: starry_night_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1916996121}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1916996125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641060696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1916996121}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: starry_night_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1916996121}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1916996127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641060696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1916996121}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: starry_night_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1916996121}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1916996129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641060696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1916996121}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: starry_night_qrcode
-  mDatasetName: Vuforia/Art_Museum.xml
-  mCastedBehaviour: {fileID: 1916996121}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1916996131
+--- !u!114 &1916996133
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
