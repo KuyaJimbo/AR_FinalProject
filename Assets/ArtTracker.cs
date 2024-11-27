@@ -224,7 +224,7 @@ public class ArtTracker : MonoBehaviour
         
         if (audioSource.isPlaying)
         {
-            audioSource.Stop();
+            audioSource.Pause();
             playButtonImage.sprite = playSprite;
         }
         else
