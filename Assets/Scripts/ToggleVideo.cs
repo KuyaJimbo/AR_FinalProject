@@ -30,9 +30,9 @@ public class ToggleVideo : MonoBehaviour
         else
         {
             playButtonImage.sprite = stopSprite;
-            videoPlayer.Play();
             plane.SetActive(true);
-            
+            videoPlayer.Play();
+
         }
 
         isPlaying = !isPlaying;
